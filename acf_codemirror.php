@@ -15,6 +15,10 @@
 function codemirror_enqueue_scripts($hook)
 {
 
+    wp_enqueue_script('wp-theme-plugin-editor');
+    wp_enqueue_style('wp-codemirror');
+
+
     $codemirror_settings = array(
         'type' => 'text/x-php',
         'codemirror' => [
@@ -29,9 +33,6 @@ function codemirror_enqueue_scripts($hook)
             'lineWrapping' => false,
         ],   
     );
-
-    wp_enqueue_script('wp-theme-plugin-editor');
-    wp_enqueue_style('wp-codemirror');
 
     $cm_settings['codeEditor'] = wp_enqueue_code_editor($codemirror_settings);
     wp_localize_script('wp-theme-plugin-editor', 'cm_settings', $cm_settings);
