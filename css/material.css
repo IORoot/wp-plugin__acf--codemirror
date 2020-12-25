@@ -4,9 +4,9 @@
   Website:    https://material-theme.site/
 */
 
-/* .ue__codemirror--scrollbars {
+.ue__codemirror--scrollbars {
     overflow: scroll;
-} */
+}
 
 .cm-s-material-darker.CodeMirror {
     background-color: #212121;
