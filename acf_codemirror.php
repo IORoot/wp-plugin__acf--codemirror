@@ -3,7 +3,7 @@
 /*
  * 
  * @wordpress-plugin
- * Plugin Name:       _ANDYP - ACF Codemirror
+ * Plugin Name:       _ANDYP - ACF - Codemirror Class
  * Plugin URI:        http://londonparkour.com
  * Description:       <strong>🔌PLUGIN</strong> | <em>ACF > Textarea</em> | Allows CODEMIRROR to run on a textarea by adding the .ue__codemirror class.
  * Version:           1.0.0
