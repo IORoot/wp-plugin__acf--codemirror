@@ -12,6 +12,12 @@
  * Domain Path:       /languages
  */
 
+//  ┌─────────────────────────────────────────────────────────────────────────┐
+//  │                    Register with ANDYP Plugins                          │
+//  └─────────────────────────────────────────────────────────────────────────┘
+require __DIR__.'/src/acf/andyp_plugin_register.php';
+
+
 function codemirror_enqueue_scripts($hook)
 {
 
