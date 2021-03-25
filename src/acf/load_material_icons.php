@@ -1,6 +1,6 @@
 <?php
 
-function my_acf_admin_head() {
+function my_acf_materialicons_admin_head() {
     ?>
     <style type="text/css">
         <?php include 'css/admin.css'; ?>
@@ -9,4 +9,4 @@ function my_acf_admin_head() {
     <?php
 }
 
-add_action('acf/input/admin_head', 'my_acf_admin_head');
+add_action('acf/input/admin_head', 'my_acf_materialicons_admin_head');
