@@ -5,6 +5,10 @@
  */
 function codemirror_js()
 {
+    if ( ! is_admin() ) {
+        return;
+    }
+    
     ?>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {

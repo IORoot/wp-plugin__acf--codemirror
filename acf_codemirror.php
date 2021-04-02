@@ -23,8 +23,6 @@ require __DIR__.'/src/acf/andyp_plugin_register.php';
 //  │                           Enqueue CSS                                   │
 //  └─────────────────────────────────────────────────────────────────────────┘
 require __DIR__.'/src/acf/acf_admin_head.php';
-require __DIR__.'/src/acf/load_material_icons.php';
-
 
 //  ┌─────────────────────────────────────────────────────────────────────────┐
 //  │                            Enqueue JS                                   │
